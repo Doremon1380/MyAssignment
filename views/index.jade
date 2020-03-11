@@ -1,0 +1,52 @@
+html
+    title Toys Shop
+    link(rel="stylesheet", href="/css/mystyle.css", type="text/css")
+    
+    body(onafterprint='myFunction()')
+        div.header
+            h1 ATN's Store
+            ul  
+                li: a(class="active",href="/") Home
+                li: a(href="/login") Login
+            img(src="/images/CoverImage.jpg", width="1890px", height="300px")
+        div.text
+            h2 Welcome to the ATN toy store. Here are some of our products.
+        div.Lego
+                img(src="/images/Lego/LEGO.jpg", width="300px", height="300px")
+            form(method="get",action="/legoProductDetails")
+                input(type="submit",value="LEGO")
+                br
+        div.Cards
+                img(src="/images/CardGames/Cards.JPG", width="300px", height="300px")
+            form(method="get",action="/magicCardsProductDetails")
+                input(type="submit",value="Cards")
+                br
+        div.Marbles
+                img(src="/images/Marbles/Marbles.jpg", width="300px", height="300px")
+            form(method="get",action="/marblesProductDetails")
+                input(type="submit",value="Marbles")
+                br
+        div.Robots
+                img(src="/images/Robots/Robots.jpg", width="300px", height="300px")
+            form(method="get",action="/robotsProductDetails")
+                input(type="submit",value="Robots")
+                br
+        div.StuffedToys
+                img(src="/images/StuffedToys/Stuffed Toys.jpg", width="300px", height="300px")
+            form(method="get",action="/stuffedToysProductDetails")
+                input(type="submit",value="Stuffed Toys")
+                br
+    footer
+        h2 Contact us:
+        p. 
+            Hotline: 0983417846 <br>
+            Email: ATNShop@gmail.com
+
+
+
+        
+
+
+            
+
+

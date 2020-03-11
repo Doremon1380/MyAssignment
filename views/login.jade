@@ -1,0 +1,21 @@
+html
+    title Login
+    link(rel="stylesheet", href="/css/mystyle.css", type="text/css")
+   
+    body
+        div.header
+            h1 Login form
+            ul  
+                li: a(href="/") Home
+                li: a(class="active",href="/login") Login
+        div.imgLogin
+            img(src="/images/Login.JPG", width="600px", height="600px")
+        div.formLogin
+            h2 Enter your account
+            form(method="get",action="/")
+                p Accout name
+                input(type="text", name="accountName")
+                p Password
+                input(type="password", name="passWord")
+                <br>
+                input(type="submit", value ="Login")

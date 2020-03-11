@@ -1,0 +1,50 @@
+html
+    title Product Detail
+    link(rel="stylesheet", href="/css/mystyle.css", type="text/css")
+    script(src="/scripts/myscript.js")
+
+    body
+        div.header
+            h1 Marbles product details
+            ul  
+                li: a(class="active",href="/") Home
+                li: a(href="/login") Login
+        div     
+            img(src="/images/Marbles/Iron marble.jpg", width="300px", height="300px")
+            p. 
+                Name: Iron marbles <br>
+                Origin: American <br>
+                Material: Iron <br>
+                Price: 18$ <br>
+            p   Amount/1 set:
+            input(type="number",name="Amount",min="1")
+        div 
+            input(type="button",onclick="Buy()",value="Buy")
+
+        
+
+        div     
+            img(src="/images/Marbles/Ceramic marble.jpg", width="300px", height="300px")
+            p. 
+                Name: Ceramic marbles <br>
+                Origin: China <br>
+                Material: Ceramic <br>
+                Price: 3$ <br>
+            p   Amount/1 set:
+            input(type="number",name="Amount",min="1")
+        div 
+            input(type="button",onclick="Buy()",value="Buy")
+
+        
+
+        div     
+            img(src="/images/Marbles/Glass marble.jpg", width="300px", height="300px")
+            p. 
+                Name: Glass marbles <br>
+                Origin: China <br>
+                Material: Glass <br>
+                Price: 1$ <br>
+            p   Amount/1 set:
+            input(type="number",name="Amount",min="1")
+        div 
+            input(type="button",onclick="Buy()",value="Buy")
