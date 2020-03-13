@@ -4,7 +4,3 @@ function Buy(){
         alert("Thank you for purchasing this product");
     }
 }
-
-function Myfunction(){
-    alert("Congratulations on your successful login");
-}
